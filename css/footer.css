@@ -1,0 +1,45 @@
+footer{
+    background:#2385E0;
+    height:300px;
+    color:white;
+    font-family:sans-serif;
+}
+
+footer a{
+   color:white;
+   text-decoration:none;
+}
+
+h5{
+    font-size:16px;
+}
+   /* la seccion que tiene las listas del footer */
+   /* lo hice asi, porque no supe colocar al p copyright bajo las listas*/
+.listas_footer{
+     display:flex;
+     justify-content: left;
+     margin-bottom:70px;/* empuja al p copyright hacia abajo hasta el final del footer*/
+}
+
+footer ul{
+    margin:0px;
+    padding:0px;
+    list-style-type:none;
+}
+
+footer li{
+    margin:15px 0;
+}
+
+.social{
+    flex-basis:200px;
+    padding-left:20px;
+}
+
+.Acerca{
+    flex-basis:900px;
+}
+
+footer p{
+    text-align:center;
+}

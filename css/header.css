@@ -1,0 +1,52 @@
+header{
+    display:flex;
+    padding:10px 0 20px 0;
+    font-family:sans-serif;
+}
+
+nav{
+    flex-basis:1440px;
+    justify-content:center; 
+}
+
+.Menu_Principal{
+    display:flex;
+    justify-content:center; 
+    font-size:18px;
+    list-style-type:none;
+}
+
+.Menu_Principal li{
+    flex-grow:0.05;
+}
+
+.Menu_Principal a{
+    color:#333;
+    text-decoration:none;
+}
+
+.banner{
+    width:100%;
+}
+
+.zigzag{
+    display:flex;
+    align-items: center;
+}
+
+article{
+   display:flex;
+   align-items: center;
+}
+
+.zona_Superior_Edificios{
+    margin-left:0px;
+}
+
+.zona_Inferior_Edificios{
+    margin-right:0px;
+}
+
+.zona_Inferior{
+   flex-direction: row-reverse;
+}

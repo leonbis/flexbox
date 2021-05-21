@@ -1,0 +1,23 @@
+main {
+    padding:20px 0;
+    font-family:sans-serif;
+    font-size:16px;
+    padding:20px;
+}
+
+article{
+   display:flex;
+   align-items: center;
+}
+
+.zona_Superior_Edificios{
+    margin-left:0px;
+}
+
+.zona_Inferior_Edificios{
+    margin-right:0px;
+}
+
+.zona_Inferior{
+   flex-direction: row-reverse;
+}
