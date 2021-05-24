@@ -9,7 +9,6 @@ body{
     justify-content: center;
     font-family:"roboto", sans-serif;
     font-size:16px;
-    margin:0px auto;
 }
 
 a{
@@ -85,8 +84,7 @@ footer a{
 h5{
     font-size:16px;
 }
-   /* la seccion que tiene las listas del footer */
-   /* lo hice asi, porque no supe colocar al p copyright bajo las listas*/
+   
 .listas_footer{
      display:flex;
      justify-content: left;
