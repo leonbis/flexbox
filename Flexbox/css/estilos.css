@@ -1,8 +1,15 @@
+@font-face{
+    font-family:"roboto";
+    src:url(fonts/roboto-regular.woff2) format("woff2"),
+    src:url(fonts/roboto-regular.woff) format("woff");
+}
+
 body{
     display:flex;
     justify-content: center;
-    font-family:sans-serif;
+    font-family:"roboto", sans-serif;
     font-size:16px;
+    margin:0px auto;
 }
 
 a{
@@ -14,7 +21,7 @@ ul{
 }
 
 .contenido{
-    width:1440px;
+    width:1360px;
 }
 
 header{
@@ -23,8 +30,12 @@ header{
 }
 
 nav{
-    flex-basis:1440px;
+    flex-basis:1360px;
     justify-content:center; 
+}
+
+.banner{
+    width:100%;
 }
 
 .Menu_Principal{
@@ -103,7 +114,4 @@ footer li{
 footer p{
     text-align:center;
 }
-
-
-
 
